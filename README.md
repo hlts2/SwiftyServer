@@ -19,6 +19,15 @@ do {
 }
 ```
 
+### Optional
+For html output.
+
+```swift
+http.get("/") { resp, req in
+    resp.write("<h1>hello world</h1>")
+}
+```
+
 ## Installation
 
 SwiftyServer is available through [Carthage](https://github.com/Carthage/Carthage) or
@@ -41,6 +50,7 @@ dependencies: [
 ```
 
 for detail, please follow the [Swift Package Manager Instruction](https://github.com/apple/swift-package-manager/blob/master/Documentation/Usage.md)
+
 ### Inspiration
 - [EchoServer.Swift](https://gist.github.com/satoshiam/65f74106f5c69697314f)
 - [SwiftSocket](https://github.com/swiftsocket/SwiftSocket)
