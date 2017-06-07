@@ -20,12 +20,17 @@ do {
 ```
 
 ### Optional
-For html output.
+For html text output.
 
 ```swift
 http.get("/") { resp, req in
     resp.write("<h1>hello world</h1>")
 }
+```
+
+For static html file output.
+
+```swift
 ```
 
 ## Installation
