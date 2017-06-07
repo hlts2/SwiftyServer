@@ -42,4 +42,5 @@ dependencies: [
 for detail, please follow the [Swift Package Manager Instruction](https://github.com/apple/swift-package-manager/blob/master/Documentation/Usage.md)
 ### Inspiration
 - [EchoServer.Swift](https://gist.github.com/satoshiam/65f74106f5c69697314f)
+- [SwiftSocket](https://github.com/swiftsocket/SwiftSocket)
 - [martini](https://github.com/go-martini/martini)
