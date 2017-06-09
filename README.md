@@ -28,9 +28,10 @@ http.get("/") { resp, req in
 }
 ```
 
-For static html file output.
+For static html, js, css file output.
 
 ```swift
+http.all("/static/", StripPrefex("/static/", StaticFileServer(path: "/Static/")))
 ```
 
 ## Installation
@@ -60,3 +61,4 @@ for detail, please follow the [Swift Package Manager Instruction](https://github
 - [EchoServer.Swift](https://gist.github.com/satoshiam/65f74106f5c69697314f)
 - [SwiftSocket](https://github.com/swiftsocket/SwiftSocket)
 - [martini](https://github.com/go-martini/martini)
+- [net/http](https://github.com/golang/go/tree/master/src/net/http)
