@@ -62,3 +62,4 @@ for detail, please follow the [Swift Package Manager Instruction](https://github
 - [SwiftSocket](https://github.com/swiftsocket/SwiftSocket)
 - [martini](https://github.com/go-martini/martini)
 - [net/http](https://github.com/golang/go/tree/master/src/net/http)
+- [kitura](https://github.com/IBM-Swift/Kitura)
