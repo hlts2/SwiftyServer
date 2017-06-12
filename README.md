@@ -65,4 +65,4 @@ for detail, please follow the [Swift Package Manager Instruction](https://github
 - [kitura](https://github.com/IBM-Swift/Kitura)
 
 ### Future
-- [ ]POST
+- [ ] POST
