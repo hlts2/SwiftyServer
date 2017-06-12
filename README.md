@@ -31,7 +31,7 @@ http.get("/") { resp, req in
 For static html, js, css file output.
 
 ```swift
-http.all("/static/", StripPrefex("/static/", StaticFileServer(path: "/Static/")))
+http.all("/static/", StripPrefex("/static/", StaticFileServer(dirPath: "/Static/")))
 ```
 
 ## Installation

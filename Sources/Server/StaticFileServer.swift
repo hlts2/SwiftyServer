@@ -9,11 +9,11 @@ public func StripPrefex(_ pattern: String, _ handler: @escaping Handler) -> Hand
     }
 }
 
-public func StaticFileServer(path: String) -> Handler {
+public func StaticFileServer(dirPath: String) -> Handler {
     
     return { response, request in
         
-        let path = path + request.path
+        let path = dirPath + request.path
         
         if FileIO.FileOrDirExist(path) {
             if FileIO.IsDirectory(path) {
