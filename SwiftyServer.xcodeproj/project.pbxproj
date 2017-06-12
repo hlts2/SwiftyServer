@@ -1,0 +1,431 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		86CBCA401EEAFAF900A3A243 /* TCPSocket.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CBCA3F1EEAFAF900A3A243 /* TCPSocket.swift */; };
+		86CBCA421EEAFB5E00A3A243 /* Errors.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CBCA411EEAFB5E00A3A243 /* Errors.swift */; };
+		86CBCA441EEAFB8400A3A243 /* HTTPClient.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86CBCA431EEAFB8400A3A243 /* HTTPClient.swift */; };
+		86E6C5001EEEB8700009F97F /* HttpRequest.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E6C4FF1EEEB8700009F97F /* HttpRequest.swift */; };
+		86E6C5041EEEB8D20009F97F /* HttpResponse.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E6C5031EEEB8D20009F97F /* HttpResponse.swift */; };
+		86E6C5061EEEB8E20009F97F /* HTTPServerResult.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E6C5051EEEB8E20009F97F /* HTTPServerResult.swift */; };
+		86E6C5081EEEB8F50009F97F /* StaticFileServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E6C5071EEEB8F50009F97F /* StaticFileServer.swift */; };
+		86E6C50A1EEEB9440009F97F /* RouterManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E6C5091EEEB9440009F97F /* RouterManager.swift */; };
+		86E6C50C1EEEB95A0009F97F /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E6C50B1EEEB95A0009F97F /* Router.swift */; };
+		86E6C50E1EEEB9800009F97F /* FileIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E6C50D1EEEB9800009F97F /* FileIO.swift */; };
+		86EBD9451EEEBA94007E3328 /* HTTPServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86EBD9441EEEBA94007E3328 /* HTTPServer.swift */; };
+		86EBD9471EEEBAC6007E3328 /* String+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86EBD9461EEEBAC6007E3328 /* String+Ex.swift */; };
+		OBJ_27 /* SwiftyServerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* SwiftyServerTests.swift */; };
+		OBJ_29 /* SwiftyServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* SwiftyServer.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		86CBCA371EEAF9B500A3A243 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = OBJ_1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = OBJ_15;
+			remoteInfo = SwiftyServer;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		86CBCA3F1EEAFAF900A3A243 /* TCPSocket.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = TCPSocket.swift; sourceTree = "<group>"; };
+		86CBCA411EEAFB5E00A3A243 /* Errors.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Errors.swift; sourceTree = "<group>"; };
+		86CBCA431EEAFB8400A3A243 /* HTTPClient.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPClient.swift; sourceTree = "<group>"; };
+		86E6C4FF1EEEB8700009F97F /* HttpRequest.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpRequest.swift; sourceTree = "<group>"; };
+		86E6C5031EEEB8D20009F97F /* HttpResponse.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HttpResponse.swift; sourceTree = "<group>"; };
+		86E6C5051EEEB8E20009F97F /* HTTPServerResult.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPServerResult.swift; sourceTree = "<group>"; };
+		86E6C5071EEEB8F50009F97F /* StaticFileServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = StaticFileServer.swift; sourceTree = "<group>"; };
+		86E6C5091EEEB9440009F97F /* RouterManager.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = RouterManager.swift; sourceTree = "<group>"; };
+		86E6C50B1EEEB95A0009F97F /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		86E6C50D1EEEB9800009F97F /* FileIO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileIO.swift; sourceTree = "<group>"; };
+		86EBD9441EEEBA94007E3328 /* HTTPServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPServer.swift; sourceTree = "<group>"; };
+		86EBD9461EEEBAC6007E3328 /* String+Ex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Ex.swift"; sourceTree = "<group>"; };
+		OBJ_11 /* SwiftyServerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyServerTests.swift; sourceTree = "<group>"; };
+		OBJ_13 /* SwiftyServer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyServer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_14 /* SwiftyServerTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = SwiftyServerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		OBJ_6 /* Package.swift */ = {isa = PBXFileReference; explicitFileType = sourcecode.swift; path = Package.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		OBJ_21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_28 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_29 /* SwiftyServer.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		86CBCA381EEAFA4900A3A243 /* Server */ = {
+			isa = PBXGroup;
+			children = (
+				86CBCA3F1EEAFAF900A3A243 /* TCPSocket.swift */,
+				86E6C4FF1EEEB8700009F97F /* HttpRequest.swift */,
+				86E6C5031EEEB8D20009F97F /* HttpResponse.swift */,
+				86E6C5051EEEB8E20009F97F /* HTTPServerResult.swift */,
+				86E6C5071EEEB8F50009F97F /* StaticFileServer.swift */,
+				86EBD9441EEEBA94007E3328 /* HTTPServer.swift */,
+			);
+			path = Server;
+			sourceTree = "<group>";
+		};
+		86CBCA391EEAFA4F00A3A243 /* Client */ = {
+			isa = PBXGroup;
+			children = (
+				86CBCA431EEAFB8400A3A243 /* HTTPClient.swift */,
+			);
+			path = Client;
+			sourceTree = "<group>";
+		};
+		86CBCA3A1EEAFA5500A3A243 /* Router */ = {
+			isa = PBXGroup;
+			children = (
+				86E6C5091EEEB9440009F97F /* RouterManager.swift */,
+				86E6C50B1EEEB95A0009F97F /* Router.swift */,
+			);
+			path = Router;
+			sourceTree = "<group>";
+		};
+		86CBCA3C1EEAFA6400A3A243 /* Error */ = {
+			isa = PBXGroup;
+			children = (
+				86CBCA411EEAFB5E00A3A243 /* Errors.swift */,
+			);
+			path = Error;
+			sourceTree = "<group>";
+		};
+		86CBCA3D1EEAFAB000A3A243 /* FileIO */ = {
+			isa = PBXGroup;
+			children = (
+				86E6C50D1EEEB9800009F97F /* FileIO.swift */,
+			);
+			path = FileIO;
+			sourceTree = "<group>";
+		};
+		86E6C50F1EEEBA1A0009F97F /* Extension */ = {
+			isa = PBXGroup;
+			children = (
+				86EBD9461EEEBAC6007E3328 /* String+Ex.swift */,
+			);
+			name = Extension;
+			sourceTree = "<group>";
+		};
+		OBJ_10 /* SwiftyServerTests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_11 /* SwiftyServerTests.swift */,
+			);
+			name = SwiftyServerTests;
+			path = Tests/SwiftyServerTests;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_12 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_13 /* SwiftyServer.framework */,
+				OBJ_14 /* SwiftyServerTests.xctest */,
+			);
+			name = Products;
+			sourceTree = BUILT_PRODUCTS_DIR;
+		};
+		OBJ_5 = {
+			isa = PBXGroup;
+			children = (
+				OBJ_6 /* Package.swift */,
+				OBJ_7 /* Sources */,
+				OBJ_9 /* Tests */,
+				OBJ_12 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		OBJ_7 /* Sources */ = {
+			isa = PBXGroup;
+			children = (
+				86E6C50F1EEEBA1A0009F97F /* Extension */,
+				86CBCA3D1EEAFAB000A3A243 /* FileIO */,
+				86CBCA3C1EEAFA6400A3A243 /* Error */,
+				86CBCA3A1EEAFA5500A3A243 /* Router */,
+				86CBCA391EEAFA4F00A3A243 /* Client */,
+				86CBCA381EEAFA4900A3A243 /* Server */,
+			);
+			path = Sources;
+			sourceTree = SOURCE_ROOT;
+		};
+		OBJ_9 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				OBJ_10 /* SwiftyServerTests */,
+			);
+			name = Tests;
+			sourceTree = SOURCE_ROOT;
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		OBJ_15 /* SwiftyServer */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_16 /* Build configuration list for PBXNativeTarget "SwiftyServer" */;
+			buildPhases = (
+				OBJ_19 /* Sources */,
+				OBJ_21 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwiftyServer;
+			productName = SwiftyServer;
+			productReference = OBJ_13 /* SwiftyServer.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		OBJ_22 /* SwiftyServerTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = OBJ_23 /* Build configuration list for PBXNativeTarget "SwiftyServerTests" */;
+			buildPhases = (
+				OBJ_26 /* Sources */,
+				OBJ_28 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				OBJ_30 /* PBXTargetDependency */,
+			);
+			name = SwiftyServerTests;
+			productName = SwiftyServerTests;
+			productReference = OBJ_14 /* SwiftyServerTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		OBJ_1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 9999;
+			};
+			buildConfigurationList = OBJ_2 /* Build configuration list for PBXProject "SwiftyServer" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = OBJ_5;
+			productRefGroup = OBJ_12 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				OBJ_15 /* SwiftyServer */,
+				OBJ_22 /* SwiftyServerTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		OBJ_19 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				86E6C50C1EEEB95A0009F97F /* Router.swift in Sources */,
+				86E6C50A1EEEB9440009F97F /* RouterManager.swift in Sources */,
+				86EBD9451EEEBA94007E3328 /* HTTPServer.swift in Sources */,
+				86E6C5081EEEB8F50009F97F /* StaticFileServer.swift in Sources */,
+				86E6C50E1EEEB9800009F97F /* FileIO.swift in Sources */,
+				86CBCA401EEAFAF900A3A243 /* TCPSocket.swift in Sources */,
+				86E6C5001EEEB8700009F97F /* HttpRequest.swift in Sources */,
+				86CBCA421EEAFB5E00A3A243 /* Errors.swift in Sources */,
+				86CBCA441EEAFB8400A3A243 /* HTTPClient.swift in Sources */,
+				86EBD9471EEEBAC6007E3328 /* String+Ex.swift in Sources */,
+				86E6C5041EEEB8D20009F97F /* HttpResponse.swift in Sources */,
+				86E6C5061EEEB8E20009F97F /* HTTPServerResult.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		OBJ_26 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 0;
+			files = (
+				OBJ_27 /* SwiftyServerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		OBJ_30 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = OBJ_15 /* SwiftyServer */;
+			targetProxy = 86CBCA371EEAF9B500A3A243 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		OBJ_17 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SwiftyServer.xcodeproj/SwiftyServer_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = SwiftyServer;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGET_NAME = SwiftyServer;
+			};
+			name = Debug;
+		};
+		OBJ_18 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ENABLE_TESTABILITY = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SwiftyServer.xcodeproj/SwiftyServer_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(TOOLCHAIN_DIR)/usr/lib/swift/macosx";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				PRODUCT_BUNDLE_IDENTIFIER = SwiftyServer;
+				PRODUCT_MODULE_NAME = "$(TARGET_NAME:c99extidentifier)";
+				PRODUCT_NAME = "$(TARGET_NAME:c99extidentifier)";
+				SKIP_INSTALL = YES;
+				TARGET_NAME = SwiftyServer;
+			};
+			name = Release;
+		};
+		OBJ_24 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SwiftyServer.xcodeproj/SwiftyServerTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				TARGET_NAME = SwiftyServerTests;
+			};
+			name = Debug;
+		};
+		OBJ_25 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				EMBEDDED_CONTENT_CONTAINS_SWIFT = YES;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PLATFORM_DIR)/Developer/Library/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = "$(inherited)";
+				INFOPLIST_FILE = SwiftyServer.xcodeproj/SwiftyServerTests_Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "@loader_path/../Frameworks @loader_path/Frameworks";
+				OTHER_LDFLAGS = "$(inherited)";
+				OTHER_SWIFT_FLAGS = "$(inherited)";
+				TARGET_NAME = SwiftyServerTests;
+			};
+			name = Release;
+		};
+		OBJ_3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_NS_ASSERTIONS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				ONLY_ACTIVE_ARCH = YES;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+				USE_HEADERMAP = NO;
+			};
+			name = Debug;
+		};
+		OBJ_4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CLANG_ENABLE_OBJC_ARC = YES;
+				COMBINE_HIDPI_IMAGES = YES;
+				COPY_PHASE_STRIP = YES;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				GCC_OPTIMIZATION_LEVEL = s;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				OTHER_SWIFT_FLAGS = "-DXcode";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = macosx;
+				SUPPORTED_PLATFORMS = "macosx iphoneos iphonesimulator appletvos appletvsimulator watchos watchsimulator";
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = SWIFT_PACKAGE;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				SWIFT_VERSION = 3.0;
+				USE_HEADERMAP = NO;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		OBJ_16 /* Build configuration list for PBXNativeTarget "SwiftyServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_17 /* Debug */,
+				OBJ_18 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_2 /* Build configuration list for PBXProject "SwiftyServer" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_3 /* Debug */,
+				OBJ_4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		OBJ_23 /* Build configuration list for PBXNativeTarget "SwiftyServerTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				OBJ_24 /* Debug */,
+				OBJ_25 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = OBJ_1 /* Project object */;
+}
