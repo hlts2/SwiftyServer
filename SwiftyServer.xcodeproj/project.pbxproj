@@ -18,7 +18,7 @@
 		86E6C50C1EEEB95A0009F97F /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E6C50B1EEEB95A0009F97F /* Router.swift */; };
 		86E6C50E1EEEB9800009F97F /* FileIO.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86E6C50D1EEEB9800009F97F /* FileIO.swift */; };
 		86EBD9451EEEBA94007E3328 /* HTTPServer.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86EBD9441EEEBA94007E3328 /* HTTPServer.swift */; };
-		86EBD9471EEEBAC6007E3328 /* String+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86EBD9461EEEBAC6007E3328 /* String+Ex.swift */; };
+		86EBD9491EEEEAA4007E3328 /* String+Ex.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86EBD9481EEEEAA4007E3328 /* String+Ex.swift */; };
 		OBJ_27 /* SwiftyServerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = OBJ_11 /* SwiftyServerTests.swift */; };
 		OBJ_29 /* SwiftyServer.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = OBJ_13 /* SwiftyServer.framework */; };
 /* End PBXBuildFile section */
@@ -45,7 +45,7 @@
 		86E6C50B1EEEB95A0009F97F /* Router.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
 		86E6C50D1EEEB9800009F97F /* FileIO.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = FileIO.swift; sourceTree = "<group>"; };
 		86EBD9441EEEBA94007E3328 /* HTTPServer.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HTTPServer.swift; sourceTree = "<group>"; };
-		86EBD9461EEEBAC6007E3328 /* String+Ex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Ex.swift"; sourceTree = "<group>"; };
+		86EBD9481EEEEAA4007E3328 /* String+Ex.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = "String+Ex.swift"; sourceTree = "<group>"; };
 		OBJ_11 /* SwiftyServerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SwiftyServerTests.swift; sourceTree = "<group>"; };
 		OBJ_13 /* SwiftyServer.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = SwiftyServer.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		OBJ_14 /* SwiftyServerTests.xctest */ = {isa = PBXFileReference; lastKnownFileType = file; path = SwiftyServerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -120,9 +120,9 @@
 		86E6C50F1EEEBA1A0009F97F /* Extension */ = {
 			isa = PBXGroup;
 			children = (
-				86EBD9461EEEBAC6007E3328 /* String+Ex.swift */,
+				86EBD9481EEEEAA4007E3328 /* String+Ex.swift */,
 			);
-			name = Extension;
+			path = Extension;
 			sourceTree = "<group>";
 		};
 		OBJ_10 /* SwiftyServerTests */ = {
@@ -250,7 +250,7 @@
 				86E6C5001EEEB8700009F97F /* HttpRequest.swift in Sources */,
 				86CBCA421EEAFB5E00A3A243 /* Errors.swift in Sources */,
 				86CBCA441EEAFB8400A3A243 /* HTTPClient.swift in Sources */,
-				86EBD9471EEEBAC6007E3328 /* String+Ex.swift in Sources */,
+				86EBD9491EEEEAA4007E3328 /* String+Ex.swift in Sources */,
 				86E6C5041EEEB8D20009F97F /* HttpResponse.swift in Sources */,
 				86E6C5061EEEB8E20009F97F /* HTTPServerResult.swift in Sources */,
 			);
